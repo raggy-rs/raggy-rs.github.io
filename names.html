@@ -11,9 +11,9 @@
 
     <!-- config for our rust wasm binary. go to https://trunkrs.dev/assets/#rust for more customization -->
 
-    <script type="module">
-        import init, * as bindings from '/names-e3e2cb8053018785.js';
-        const wasm = await init('/names-e3e2cb8053018785_bg.wasm');
+    <script type="module" nonce="YFc5oqiL5GRjoSVnpLT5WQ==">
+        import init, * as bindings from 'https://raggy-rs.github.io/names-8633c80659735df.js';
+        const wasm = await init('https://raggy-rs.github.io/names-8633c80659735df_bg.wasm');
 
 
         window.wasmBindings = bindings;
@@ -23,7 +23,7 @@
 
     </script>
     <!-- this is the base url relative to which other urls will be constructed. trunk will insert this from the public-url option -->
-    <base href="/" />
+    <base href="https://raggy-rs.github.io/" />
 
 
 
@@ -125,11 +125,11 @@
         }
     </style>
 
-    <link rel="modulepreload" href="/names-e3e2cb8053018785.js" crossorigin=anonymous
-        integrity="sha384-OUs7DRLuJ8XyogwwL2lltAZ1CDD2D84dQ8yNrix+L0YyRgMKrPMf1lSIItSAty1A">
-    <link rel="preload" href="/names-e3e2cb8053018785_bg.wasm" crossorigin=anonymous
-        integrity="sha384-qpc6poBeURKZgtWsEcd4IRIUBhV5KXcdAIECZOCOMZJRZkmJYpIzoNXAn11EMH0C" as="fetch"
-        type="application/wasm">
+    <link rel="modulepreload" href="https://raggy-rs.github.io/wasm.raggy_rs.github.io/names-8633c80659735df.js"
+        crossorigin=anonymous integrity="sha384-T81ogQD5RCPLX+wOAL7xdNDsY/JJYuBFyWjDRSx6x+obYTMTM4mSHP2nF3tAX4FL">
+    <link rel="preload" href="https://raggy-rs.github.io/wasm.raggy_rs.github.io/names-8633c80659735df_bg.wasm"
+        crossorigin=anonymous integrity="sha384-mfLsxXv/NOup7qKWE18TvvIHtVV+VZlqfaHfxUPCOTeNlzpTY61UtJGcy5gz4ZKc"
+        as="fetch" type="application/wasm">
 </head>
 
 <body>
