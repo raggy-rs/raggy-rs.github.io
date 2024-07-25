@@ -1,7 +1,7 @@
-var cacheName = 'egui-template-pwa';
+var cacheName = 'names-pwa';
 var filesToCache = [
   './',
-  './index.html',
+  './names.html',
   './names.js',
   './names_bg.wasm',
 ];
